@@ -6,14 +6,18 @@ import ReportAttend from "@/view/ReportAttend.vue";
 import LoginPage from "@/view/LoginPage.vue";
 import StudentPage from "../view/StudentPage.vue";
 import DashBoard from "../view/DashBoard.vue";
+import StudentDash from "../view/StudentDash.vue";
+import UpDate from "../view/UpDate.vue";
+import TeacherSec from "../view/TeacherSec.vue";
+import SubjectSec from '../view/SubjectSec.vue'
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: "/",
-      name: "Home",
-      component: HomePage,
+      path: "/login",
+      name: "LoginPage",
+      component: LoginPage,
     },
     {
       path: "/about",
@@ -26,9 +30,9 @@ export default new Router({
       component: ReportAttend,
     },
     {
-      path: "/login",
-      name: "LoginPage",
-      component: LoginPage,
+      path: "/home",
+      name: "HomePage",
+      component: HomePage,
     },
     {
       path: "/student",
@@ -39,6 +43,26 @@ export default new Router({
       path: "/dashboard",
       name: "DashBoard",
       component: DashBoard,
+    },
+    {
+      path: "/student_",
+      name: "StudentDash",
+      component: StudentDash,
+    },
+    {
+      path: "/student_update",
+      name: "UpdateStu",
+      component: UpDate,
+    },
+    {
+      path: "/add_teacher",
+      name: "TeacherSec",
+      component: TeacherSec,
+    },
+    {
+      path: "/add_subject",
+      name: "SubjectSec",
+      component: SubjectSec,
     },
   ],
 });

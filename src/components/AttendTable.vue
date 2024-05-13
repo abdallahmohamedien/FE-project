@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2 p-6">
+  <div class="w-1/2 h-40 p-6 bg-white">
     <div class="grid grid-cols-3 font-bold h-10">
       <td>Name</td>
       <td>Section</td>

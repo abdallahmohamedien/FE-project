@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center h-20">
     <input
-      class="h-10 w-96 p-2 rounded-xl"
+      class="w-72 h-10 rounded-md p-2 shadow-xl bg-gray-200"
       type="search"
       placeholder="search"
       name=""

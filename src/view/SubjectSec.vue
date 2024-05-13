@@ -5,8 +5,8 @@
     </div>
     <div class="col-span-8">
       <HeaderBar />
-      <div class="p-10">
-        <WelcomeSec />
+      <div class="flex p-10 gap-10">
+        <AddSubject />
         <AttendTable />
       </div>
     </div>
@@ -16,14 +16,14 @@
 <script>
 import SideBar from "@/components/SideBar.vue";
 import HeaderBar from "@/components/HeaderBar.vue";
-import WelcomeSec from "@/components/WelcomeSec.vue";
+import AddSubject from "@/components/AddSubject.vue";
 import AttendTable from "@/components/AttendTable.vue";
 export default {
   name: "DashBoard",
   components: {
     SideBar,
     HeaderBar,
-    WelcomeSec,
+    AddSubject,
     AttendTable,
   },
 };

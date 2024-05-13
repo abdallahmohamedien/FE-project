@@ -4,14 +4,14 @@
       AMS
     </h1>
     <ul class="grid gap-10 justify-start p-7 text-gray-500">
-      <li>DashBoard</li>
-      <li>Student</li>
-      <li>Teacher</li>
-      <li>Subject</li>
+      <router-link to="/dashboard">DashBoard</router-link>
+      <router-link to="/student_">Student</router-link>
+      <router-link to="/add_teacher">Teacher</router-link>
+      <router-link to="/add_subject">Subject</router-link>
       <li>Devices</li>
     </ul>
     <div>
-      <button>Log Out</button>
+      <button class="hover:text-white">Log Out</button>
     </div>
   </div>
 </template>

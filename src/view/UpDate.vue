@@ -5,9 +5,8 @@
     </div>
     <div class="col-span-8">
       <HeaderBar />
-      <div class="p-10">
-        <WelcomeSec />
-        <AttendTable />
+      <div class="flex justify-center py-10">
+        <UpdateStu />
       </div>
     </div>
   </div>
@@ -16,15 +15,13 @@
 <script>
 import SideBar from "@/components/SideBar.vue";
 import HeaderBar from "@/components/HeaderBar.vue";
-import WelcomeSec from "@/components/WelcomeSec.vue";
-import AttendTable from "@/components/AttendTable.vue";
+import UpdateStu from "@/components/UpdateStu.vue";
 export default {
   name: "DashBoard",
   components: {
     SideBar,
     HeaderBar,
-    WelcomeSec,
-    AttendTable,
+    UpdateStu,
   },
 };
 </script>

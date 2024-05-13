@@ -5,7 +5,7 @@
     </div>
     <div class="flex">
       <ul class="flex gap-10">
-        <router-link to="/">Home</router-link>
+        <router-link to="/home">Home</router-link>
         <router-link to="/report">Report</router-link>
         <router-link to="/student">Student</router-link>
         <router-link to="/login">Login Out</router-link>

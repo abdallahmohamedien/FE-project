@@ -1,6 +1,6 @@
 <template>
-  <div class="w-screen px-10 py-4">
-    <div class="grid lg:grid-cols-2 h-screen">
+  <div class="w-full h-96">
+    <div class="grid lg:grid-cols-2">
       <div class="flex w-full bg-gray-300 justify-center items-center">
         <form id="login-form" class="text-center w-full">
           <div class="h-20 p-2">
