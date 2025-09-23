@@ -2,7 +2,6 @@
 <template>
   <div class="bg-gray-400">
     <HeaderPage />
-
     <AttendSection />
   </div>
 </template>

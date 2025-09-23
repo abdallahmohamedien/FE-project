@@ -8,7 +8,7 @@
       <router-link to="/student_">Student</router-link>
       <router-link to="/add_teacher">Teacher</router-link>
       <router-link to="/add_subject">Subject</router-link>
-      <li>Devices</li>
+      <router-link to="/devices">Devices</router-link>
     </ul>
     <div>
       <button class="hover:text-white">Log Out</button>

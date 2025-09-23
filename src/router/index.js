@@ -9,7 +9,8 @@ import DashBoard from "../view/DashBoard.vue";
 import StudentDash from "../view/StudentDash.vue";
 import UpDate from "../view/UpDate.vue";
 import TeacherSec from "../view/TeacherSec.vue";
-import SubjectSec from '../view/SubjectSec.vue'
+import SubjectSec from "../view/SubjectSec.vue";
+import DevicesSec from "../view/DevicesSec.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -33,6 +34,7 @@ export default new Router({
       path: "/home",
       name: "HomePage",
       component: HomePage,
+      meta: { requiresAuth: true },
     },
     {
       path: "/student",
@@ -64,5 +66,21 @@ export default new Router({
       name: "SubjectSec",
       component: SubjectSec,
     },
+    {
+      path: "/devices",
+      name: "DevicesSec",
+      component: DevicesSec,
+    },
   ],
 });
+// Router.beforeEach((to, from, next) => {
+//   const isAuthenticated = !!localStorage.getItem("token");
+//   if (
+//     to.matched.some((record) => record.meta.requiresAuth) &&
+//     !isAuthenticated
+//   ) {
+//     next("/login");
+//   } else {
+//     next();
+//   }
+// });

@@ -7,19 +7,19 @@
     </div>
 
     <div class="grid grid-cols-3 text-base">
-      <td>Person 1</td>
-      <td>A</td>
+      <td>Abdelrhman Ehab</td>
+      <td>c</td>
       <td>2</td>
     </div>
 
     <div class="grid grid-cols-3 text-base">
-      <td>Person 1</td>
-      <td>A</td>
+      <td>Abdallah Elsayed  </td>
+      <td>c</td>
       <td>2</td>
     </div>
     <div class="grid grid-cols-3 text-base">
-      <td>Person 1</td>
-      <td>A</td>
+      <td>Hamada Ebrahim</td>
+      <td>b</td>
       <td>2</td>
     </div>
   </div>

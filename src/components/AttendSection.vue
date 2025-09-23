@@ -18,35 +18,35 @@
         </div>
         <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-10 p-10">
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">1. Abdelrhman Ehab Mosad</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">2. Abdallah Elsayed</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">3. Hmada Ebrahim</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">4. Ali moataz</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">5. Ebrahim Deiab</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">6. Hana Mohamed</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">1. Eman Adel </p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
-            <p class="">1. Sam smith</p>
+            <p class="">1. shrin Foad</p>
             <input type="checkbox" name="" id="" />
           </div>
           <div class="flex justify-around px-3 py-3 rounded-xl bg-gray-200">
