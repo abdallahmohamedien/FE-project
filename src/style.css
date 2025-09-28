@@ -1,3 +1,29 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* Page transition */
+.page-enter-active, .page-leave-active {
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.page-enter {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+/* Fade for list items */
+.fade-enter-active, .fade-leave-active {
+  transition: all 150ms ease;
+}
+.fade-enter {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.fade-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
+}
